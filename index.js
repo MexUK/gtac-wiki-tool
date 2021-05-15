@@ -136,7 +136,10 @@ dumpdoc.onChooseXML = function(event, input, gameIndex)
 
 dumpdoc.onClickFetchWiki = function(event, input, endpointId)
 {
-	dumpdoc.clearGame(5 + endpointId);
+	dumpdoc.clearGame({
+		gameIndex: 5 + endpointId,
+		endpointIndex: endpointId
+	});
 	
 	loadAjax("fetchwiki.php?endpoint="+endpointId, x => {
 		//console.log(x.responseText);
