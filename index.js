@@ -777,6 +777,7 @@ dumpdoc.parseCommandsXML = function(doc, data)
 // reset
 dumpdoc.clearGame = function(data)
 {
+	/*
 	dumpdoc.xmlItems[data.gameIndex] = [ [], [], [], [] ];
 	
 	dumpdoc.xmlItemsVariableNames[data.gameIndex] = [ [], [], [], [] ];
@@ -790,6 +791,7 @@ dumpdoc.clearGame = function(data)
 	dumpdoc.updateStats(dumpdoc.EVENTS);
 	dumpdoc.updateStats(dumpdoc.DEFINES);
 	dumpdoc.updateStats(dumpdoc.COMMANDS);
+	*/
 };
 
 // stats
