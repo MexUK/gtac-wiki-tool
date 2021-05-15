@@ -1,0 +1,58 @@
+*
+{
+	font-family: Calibri;
+}
+
+.xml_table
+{
+	border-collapse: collapse;
+}
+
+.xml_table th,
+.xml_table td
+{
+	border: solid 1px #000000;
+	border-collapse: collapse;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.xml_table th
+{
+	width: 240px;
+	height: 20px;
+	text-align: left;
+}
+
+.xml_table input[type=button]:not(:first-child)
+{
+	margin-left: 10px;
+}
+
+.xml_table input[type=button]:not(:last-child)
+{
+	margin-right: 10px;
+}
+
+.xml_table #format_output
+{
+	margin-top: 10px;
+	height: 100px;
+	width: 850px;
+	font-weight: normal;
+	overflow-y: scroll;
+}
+
+.compare_container
+{
+	margin-top: 15px;
+}
+
+
+.compare_container textarea
+{
+	display: none;
+	margin-top: 15px;
+	width: 450px;
+	height: 400px;
+}
