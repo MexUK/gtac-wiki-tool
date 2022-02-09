@@ -1,7 +1,7 @@
 # gtac-wiki-tool
  A utility tool to help documentation managers for the GTA:Connected multiplayer wiki.
  
- The tool can show items which are:
+ The tool's main purposes include:
   - Missing from the XML, but are on the wiki.
   - On the wiki, but are missing from the XML.
  
